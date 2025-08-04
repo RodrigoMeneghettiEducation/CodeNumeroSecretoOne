@@ -2,7 +2,7 @@
 // Array que vai guardar os números de já foram sorteados aleatoriamente
 let listaDeNumerosSorteados = [];
 // Variável que indica a quantidade máxima n de números do jogo (1 até n)
-let numeroLimite = 10;
+let numeroLimite = 100;
 // Variável que vai guardar o resultado da função degeração de número 
 // aleatório
 let numeroSecreto = gerarNumeroAleatorio();
@@ -54,7 +54,7 @@ function exibirMensagemInicial(){
     // Esta fornecendo a tag a ser modifiada e o texto que será incerido
     // no lugar do que houver lá.
     exibirTextoNaTela('h1', 'Jogo do Número Secreto');
-    exibirTextoNaTela('p', 'Escolha um número entre 1 e 10');
+    exibirTextoNaTela('p', 'Escolha um número entre 1 e 100');
 }
 // Execução da função exibirMendagemInicial() no inicio do jogo.
 exibirMensagemInicial();
